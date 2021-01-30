@@ -1,0 +1,80 @@
+:root {
+	font-size: 16px;
+}
+.color-gris {
+	color: #4e5663;
+}
+.color-blanco {
+	color: white;
+}
+
+div {
+	/*padding-top: 0.5rem;*/
+	font-family: karla,sans-serif;
+	color: black;
+}
+
+footer {
+	font-family: karla,sans-serif;
+	font-size: 1.2rem;
+	background-color: #6e8091;
+	text-align: center;
+	background-image: linear-gradient(darkgrey, lightgrey);
+	height: 50px;
+}
+
+header nav a:hover {
+	color: red;
+	text-decoration: underline;
+}
+nav a {
+	padding-left: 1.5rem;
+}
+.calesita-tit {
+	font-size: 40px;
+	font-weight: 900;
+	/*color: white;*/
+}
+.calesita-subtit {
+	font-size: 30px;
+	font-weight: 900;
+	/*color: white;*/
+}
+
+.contacto {
+	padding-top: 0px;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.lista-tel {
+	list-style-type: none;
+}
+.background-nosotros {
+	background-color: #ffffe6;
+}
+.background-soluciones {
+	background-color: #e6f0ff;
+}
+.background-inicial {
+	background-color: #ecf9f2;
+}
+
+div#ZoomIn {
+	transition: all 1s;
+}
+div#ZoomIn img:hover{
+	transform: scale(0.6);
+}
+div#ZoomOut {
+	transition: all 1s;
+}
+div#ZoomOut img:hover{
+	transform: scale(1.3);
+}
+.nosotros {
+	font-size: 1.5rem;
+}
+
+.imagen-centrada {
+	
+}
